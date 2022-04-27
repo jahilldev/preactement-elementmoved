@@ -1990,10 +1990,10 @@ preact@^10.6.2:
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.6.4.tgz#ad12c409ff1b4316158486e0a7b8d43636f7ced8"
   integrity sha512-WyosM7pxGcndU8hY0OQlLd54tOU+qmG45QXj2dAYrL11HoyU/EzOSTlpJsirbBr1QW7lICxSsVJJmcmUglovHQ==
 
-preactement@^1.6.3:
-  version "1.6.3"
-  resolved "https://registry.yarnpkg.com/preactement/-/preactement-1.6.3.tgz#bc35cbd2f03bc7f65535b2be6e28b539f39b9f2c"
-  integrity sha512-KS8nfvf7ocv75EnlExPiB9RxPdTVI+1WgJPzf1g5QOZF7hZn1mmHJNZ9RXmWn1qyyCFnz6DRpBYOl2kMYNx7Sg==
+preactement@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/preactement/-/preactement-1.8.0.tgz#3657846ff74e0a9578d1d6fbe00c4f20c3761d37"
+  integrity sha512-VId56rXyNdZ/nExWLWEzBofUCrW50E+1crN9lRDFZdwXNF0Y07HAovKIOsXOrP++5vue3+Med1zC3XvPq+hJPw==
 
 prettier@^2.0.5:
   version "2.5.1"

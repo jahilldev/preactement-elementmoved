@@ -1,4 +1,5 @@
 import { h, Fragment } from 'preact';
+import { useEffect } from 'preact/hooks';
 
 /* -----------------------------------
  *
@@ -20,6 +21,14 @@ interface IProps {
  * -------------------------------- */
 
 function InfoArea({ messageValue, titleValue, children }: IProps) {
+  useEffect(() => {
+    console.log('<info-area /> -> mounted');
+
+    return () => {
+      console.log('<info-area /> -> unmounted');
+    };
+  }, []);
+
   return (
     <Fragment>
       <h3 class="title">{titleValue}</h3>
